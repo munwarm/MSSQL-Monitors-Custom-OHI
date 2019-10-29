@@ -1,6 +1,7 @@
 # New Relic MSSQL Monitors Custom OHI Installation
 
 * Pre-requisites:
+
 Before you try copying the custom OHI, please make sure that:
 
 1.) New Relic Infra Agent is installed and
@@ -36,7 +37,7 @@ SQLServerSyncHealth
 
 Start Infrastructure agent - net start newrelic-infra
 
-Step 6:
+* Step 6:
 
 Give the agent a few minutes to run and check data in Insights by trying these commands.
 
