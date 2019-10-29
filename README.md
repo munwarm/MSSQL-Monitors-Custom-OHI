@@ -37,10 +37,17 @@ SQLServerSyncHealth
 Start Infrastructure agent - net start newrelic-infra
 
 Step 6:
+
 Give the agent a few minutes to run and check data in Insights by trying these commands.
+
 SELECT * FROM SQLAgentHealth SINCE 15 minutes AGO
+
 SELECT * FROM SQLServerDBMirrorStatus SINCE 15 minutes AGO
+
 SELECT * FROM SQLServerDBStatus SINCE 15 minutes AGO
+
 SELECT * FROM SQLServerDBUnsentLog SINCE 15 minutes AGO
+
 SELECT * FROM SQLServerInstanceStatus SINCE 15 minutes AGO
+
 SELECT * FROM SQLServerSyncHealth SINCE 15 minutes AGO
