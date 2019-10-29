@@ -10,7 +10,7 @@ Before you try copying the custom OHI, please make sure that:
 
 ## Step 1:
 
-Stop running the infrastructure agent - net stop newrelic-infra
+Stop running the infrastructure agent *net stop newrelic-infra*
 
 ## Step 2:
 
@@ -35,7 +35,7 @@ SQLServerSyncHealth
 
 ## Step 5:
 
-Start Infrastructure agent - net start newrelic-infra
+Start Infrastructure agent *net start newrelic-infra*
 
 ## Step 6:
 
